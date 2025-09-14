@@ -10,19 +10,77 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar">
+        <div class="nav-background">
+            <div class="nav-pattern"></div>
+            <div class="nav-overlay"></div>
+        </div>
+        
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Soul of India</h2>
+                <div class="logo-container">
+                    <h2 class="logo-text">
+                        <span class="logo-soul">Soul</span>
+                        <span class="logo-of">of</span>
+                        <span class="logo-india">India</span>
+                    </h2>
+                    <div class="logo-tagline">True Flavours of India</div>
+                </div>
             </div>
-            <div class="nav-menu">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#menu">Menu</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#contact">Contact</a>
+            
+            <div class="nav-center">
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">
+                        <span class="link-text">Home</span>
+                        <div class="link-underline"></div>
+                    </a>
+                    <a href="#about" class="nav-link">
+                        <span class="link-text">About</span>
+                        <div class="link-underline"></div>
+                    </a>
+                    <a href="#menu" class="nav-link">
+                        <span class="link-text">Menu</span>
+                        <div class="link-underline"></div>
+                    </a>
+                    <a href="#gallery" class="nav-link">
+                        <span class="link-text">Gallery</span>
+                        <div class="link-underline"></div>
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <span class="link-text">Contact</span>
+                        <div class="link-underline"></div>
+                    </a>
+                </div>
             </div>
+            
             <div class="nav-actions">
-                <button class="order-btn">Order Online</button>
+                <div class="nav-info">
+                    <div class="nav-phone">
+                        <div class="phone-icon">📞</div>
+                        <div class="phone-details">
+                            <span class="phone-label">Call Now</span>
+                            <span class="phone-number">+971 25 859093</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-buttons">
+                    <button class="order-btn primary">
+                        <span class="btn-text">Order Online</span>
+                        <span class="btn-icon">🛒</span>
+                        <div class="btn-shimmer"></div>
+                    </button>
+                    <button class="reserve-btn secondary">
+                        <span class="btn-text">Reserve Table</span>
+                        <span class="btn-icon">🍽️</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-toggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
             </div>
         </div>
     </nav>
@@ -79,7 +137,7 @@
     <section class="signature-dishes">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Signature Street Delights</h2>
+                <h2 class="section-title">Our <span class="signature-accent">Signature</span> Street Delights</h2>
                 <p class="section-subtitle">Authentic flavors from the bustling streets of India, crafted with love and tradition</p>
             </div>
             
@@ -191,38 +249,125 @@
 
     <!-- Story Section -->
     <section class="story-section">
+        <div class="story-background">
+            <div class="story-pattern"></div>
+            <div class="story-overlay"></div>
+            <div class="floating-elements">
+                <div class="floating-spice spice-turmeric">🌟</div>
+                <div class="floating-spice spice-cardamom">🌿</div>
+                <div class="floating-spice spice-cinnamon">✨</div>
+            </div>
+        </div>
+        
         <div class="container">
-            <div class="story-content">
-                <div class="story-text">
-                    <h2 class="story-title">Where Tradition Meets Taste</h2>
-                    <p class="story-description">At Soul of India, we don't just serve food – we serve memories, traditions, and the authentic flavors that have been passed down through generations. Our kitchen is a celebration of India's rich culinary heritage, where every dish tells a story of its origin.</p>
+            <div class="story-header">
+                <h2 class="story-title">Where <span class="tradition-accent">Tradition</span> Meets <span class="taste-accent">Taste</span></h2>
+                <div class="title-ornament"></div>
+            </div>
+            
+            <div class="story-grid">
+                <div class="story-content">
+                    <div class="story-card">
+                        <div class="card-icon">🍽️</div>
+                        <p class="story-description">At Soul of India, we don't just serve food – we serve memories, traditions, and the authentic flavors that have been passed down through generations.</p>
+                    </div>
                     
-                    <div class="story-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">Years Experience</span>
+                    <div class="story-stats-container">
+                        <div class="stats-header">
+                            <h3>Our Legacy</h3>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Vegetarian</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">Signature Dishes</span>
+                        <div class="story-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Years Experience</span>
+                                <div class="stat-decoration"></div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Vegetarian</span>
+                                <div class="stat-decoration"></div>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Signature Dishes</span>
+                                <div class="stat-decoration"></div>
+                            </div>
                         </div>
                     </div>
                     
-                    <button class="learn-more-btn">Discover Our Story</button>
+                    <div class="story-cta">
+                        <button class="learn-more-btn">Discover Our Story</button>
+                        <p class="cta-subtitle">Experience the authentic flavors of India</p>
+                    </div>
                 </div>
                 
-                <div class="story-visual">
-                    <div class="visual-card main-card">
-                        <img src="images/restaurant/interior.jpg" alt="Restaurant Interior" class="story-img">
-                        <p>Authentic ambiance and traditional dining experience</p>
+                <div class="story-gallery">
+                    <div class="gallery-main">
+                        <div class="visual-card featured-card">
+                            <img src="images/restaurant/interior.jpg" alt="Restaurant Interior" class="story-img">
+                            <div class="card-overlay">
+                                <div class="card-content">
+                                    <h4>Authentic Ambiance</h4>
+                                    <p>Traditional dining experience with modern comfort</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="visual-card accent-card">
-                        <img src="images/restaurant/cooking.jpg" alt="Fresh Ingredients" class="story-img">
-                        <p>Fresh ingredients and traditional cooking</p>
+                    
+                    <div class="gallery-side">
+                        <div class="gallery-grid">
+                            <div class="visual-card mini-card">
+                                <img src="images/restaurant/cooking.jpg" alt="Fresh Cooking" class="story-img">
+                                <div class="mini-overlay">
+                                    <span class="mini-title">Fresh Cooking</span>
+                                </div>
+                            </div>
+                            
+                            <div class="visual-card mini-card">
+                                <img src="images/restaurant/restaurant-5.jpg" alt="Dining Area" class="story-img">
+                                <div class="mini-overlay">
+                                    <span class="mini-title">Dining Area</span>
+                                </div>
+                            </div>
+                            
+                            <div class="visual-card mini-card">
+                                <img src="images/restaurant/restaurant-6.jpg" alt="Kitchen View" class="story-img">
+                                <div class="mini-overlay">
+                                    <span class="mini-title">Kitchen View</span>
+                                </div>
+                            </div>
+                            
+                            <div class="visual-card mini-card">
+                                <img src="images/restaurant/restaurant-12.jpg" alt="Restaurant Setup" class="story-img">
+                                <div class="mini-overlay">
+                                    <span class="mini-title">Restaurant Setup</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="heritage-badge">
+                            <div class="badge-icon">🏆</div>
+                            <div class="badge-text">
+                                <span class="badge-title">Award Winning</span>
+                                <span class="badge-subtitle">Authentic Cuisine</span>
+                            </div>
+                        </div>
+                        
+                        <div class="food-showcase">
+                            <div class="showcase-header">
+                                <h4>Signature Creations</h4>
+                            </div>
+                            <div class="food-mini-grid">
+                                <div class="food-mini-card">
+                                    <img src="images/food/vada-paav.jpg" alt="Vada Pav" class="food-mini-img">
+                                    <span class="food-mini-label">Vada Pav</span>
+                                </div>
+                                <div class="food-mini-card">
+                                    <img src="images/food/raj-kachori.jpg" alt="Raj Kachori" class="food-mini-img">
+                                    <span class="food-mini-label">Raj Kachori</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -231,21 +376,110 @@
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="footer-background">
+            <div class="footer-pattern"></div>
+            <div class="footer-overlay"></div>
+        </div>
+        
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>Soul of India</h3>
-                    <p>Creating a culinary journey that celebrates the diversity of India's culinary heritage</p>
+            <!-- Footer Main Content -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <h2>Soul of India</h2>
+                        <div class="brand-tagline">True Flavours of India</div>
+                    </div>
+                    <p class="brand-description">Creating a culinary journey that celebrates the diversity of India's culinary heritage through authentic vegetarian cuisine.</p>
+                    
+                    <div class="footer-awards">
+                        <div class="award-badge">
+                            <div class="award-icon">🏆</div>
+                            <span>Award Winning</span>
+                        </div>
+                        <div class="award-badge">
+                            <div class="award-icon">🌱</div>
+                            <span>100% Vegetarian</span>
+                        </div>
+                        <div class="award-badge">
+                            <div class="award-icon">⭐</div>
+                            <span>15+ Years</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-contact">
-                    <h4>Visit Us</h4>
-                    <p>Khalidiya, Corniche Tower-B<br>Abu Dhabi, UAE</p>
-                    <p>📞 +971 25 859093</p>
-                    <p>📧 info@soulofindia.ae</p>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-list">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#menu">Our Menu</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Visit Us</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <p>Khalidiya, Corniche Tower-B</p>
+                                    <p>Abu Dhabi, UAE</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <p>+971 25 859093</p>
+                                    <p>+971 50 150 3520</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <p>info@soulofindia.ae</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 class="footer-title">Opening Hours</h4>
+                        <div class="hours-info">
+                            <div class="hours-item">
+                                <span class="day">Monday - Sunday</span>
+                                <span class="time">8:00 AM - 11:00 PM</span>
+                            </div>
+                            <div class="hours-status">
+                                <span class="status-indicator open"></span>
+                                <span class="status-text">Open Now</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media">
+                            <h5>Follow Us</h5>
+                            <div class="social-links">
+                                <a href="#" class="social-link facebook" aria-label="Facebook">📘</a>
+                                <a href="#" class="social-link instagram" aria-label="Instagram">📷</a>
+                                <a href="#" class="social-link whatsapp" aria-label="WhatsApp">💬</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-hours">
-                    <h4>Opening Hours</h4>
-                    <p>Monday - Sunday<br>8:00 AM - 11:00 PM</p>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <p class="copyright">© 2024 Soul of India. All rights reserved.</p>
+                    <div class="footer-badges">
+                        <span class="badge">Premium Quality</span>
+                        <span class="badge">Fresh Daily</span>
+                        <span class="badge">Authentic Taste</span>
+                    </div>
                 </div>
             </div>
         </div>
